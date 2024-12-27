@@ -1,0 +1,28 @@
+/* src/components/Body/Body.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .image {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img {
+    margin-right: 20px;
+  }
+  
+  .portfolio-img {
+    width: 300px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: for a subtle shadow */
+  }
+  
+  .about {
+    max-width: 600px; /* Adjust width for text content */
+  }
+  

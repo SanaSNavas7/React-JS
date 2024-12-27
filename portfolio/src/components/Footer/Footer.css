@@ -1,0 +1,29 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding on top and bottom */
+    text-align: center; /* Center align text */
+    position: relative; /* To ensure footer is positioned relative to its normal flow */
+    width: 100%; /* Full width */
+    bottom: 0; /* Ensure it stays at the bottom if needed */
+  }
+  
+  .footer div {
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Padding on the left and right */
+  }
+  
+  .footer h2 {
+    margin: 10px 0; /* Margin around the headings */
+    font-size: 18px; /* Font size for the headings */
+  }
+  
+  /* Optional: Responsive design adjustments */
+  @media (max-width: 600px) {
+    .footer h2 {
+      font-size: 16px; /* Adjust font size on smaller screens */
+    }
+  }
+  

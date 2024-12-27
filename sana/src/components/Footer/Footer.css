@@ -1,0 +1,58 @@
+/* Footer.css */
+
+.footer {
+    padding: 50px 20px; /* Added horizontal padding for better spacing */
+    background: #f9f9f9; /* Changed to a light gray for better contrast */
+    width: 100%;
+    margin-top: auto;
+    border-top: 1px solid #ddd; /* Added a top border for visual separation */
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2rem;
+    row-gap: 1.5rem; /* Added row gap for vertical spacing */
+    background: #ffffff; /* White background for clarity */
+}
+
+.footer-box {
+    width: 30%;
+    min-width: 250px; /* Ensure readability on smaller screens */
+}
+
+.footer-box p {
+    line-height: 1.5rem; /* Improved line-height for better readability */
+    margin-top: 20px;
+    color: #555; /* Slightly darker text color for better contrast */
+}
+
+.footer-title {
+    font-size: 1.25rem; /* Increased font size for better readability */
+    font-weight: bold; /* Added font weight for emphasis */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Added margin-bottom for spacing */
+    color: #333; /* Darker text color for headings */
+}
+
+.footer_links {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.footer_links li {
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.5rem; /* Consistent line height */
+    color: #333; /* Consistent color for text */
+}
+
+.footer_links li a {
+    color: #333; /* Consistent color for links */
+    text-decoration: none; /* Remove underline for cleaner look */
+}
+
+.footer_links li a:hover {
+    color: #007bff; /* Primary color for hover effect */
+    text-decoration: underline; /* Underline on hover for clarity */
+}

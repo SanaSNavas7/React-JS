@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #6f55f2;
+  --heading-color: black;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: auto;
+}

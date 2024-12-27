@@ -1,0 +1,38 @@
+/* src/components/Body/Experience.css */
+.experience-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .experience-card {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    width: 18rem;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .more-info-btn {
+    margin-top: 10px;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .more-info-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  

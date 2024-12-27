@@ -1,0 +1,96 @@
+/* General container styling */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  /* Course container styling */
+  .course-container {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-top {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .course-top p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Flexbox setup for course items */
+  .course-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Styling for each course item */
+  .course-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(25% - 20px); /* Adjust for layout spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .course-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .course-icon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .course-content {
+    text-align: center;
+  }
+  
+  .course-content h4 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .course-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .course-item {
+      width: calc(50% - 20px); /* Adjust for two items per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .course-item {
+      width: 100%; /* Full width on very small screens */
+    }
+  }
+  
